@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #000; */
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    width: 30rem;
+    /* height: 15rem; */
+    background-color: wheat;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 2rem;
+}
+
+button{
+    width: 100%;
+    background-color: yellow;
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
